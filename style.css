@@ -70,10 +70,19 @@
   background: var(--link-hover-color)
 }
 .nav-links {
+  display: flex;
+  flex-direction: column;
   margin-top: 30px;
 }
 .nav-links i {
   margin-right: 8px;
+  font-size: 24px;
+  color: var(--main-text-color);
+}
+
+.nav-row {
+  display: flex;
+  align-items: center;
 }
 
 .main {
