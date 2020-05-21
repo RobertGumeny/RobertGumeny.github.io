@@ -315,7 +315,7 @@ section {
 
 .title-underline {
   content: '';
-  width: 100px;
+  width: 10%;
   height: 3px;
   margin: 0 auto;
 }
@@ -334,15 +334,19 @@ section {
 /* !SECTION End about section */
 
 /* SECTION Skills section */
-.skills-content ul {
-  list-style: none;
+.skills .title-underline {
+  width: 5%;
 }
 .skills-content i {
-  padding-right: 5px;
+  font-size: 64px;
+  text-shadow: 2px 2px 6px #676767;
 }
 /* !SECTION End skills section */
 
 /* SECTION Portfolio */
+.portfolio-content .card {
+  width: 20rem;
+}
 
 /* !SECTION End portfolio */
 
@@ -351,54 +355,18 @@ section {
 /* !SECTION End resume section */
 
 /* SECTION Contact section */
-.contact {
-  padding-bottom: 130px;
+
+.contact-content i {
+  font-size: 40px;
+  text-shadow: 2px 2px 6px #676767;
 }
 
-.contact {
-  padding: 30px;
-  background: #fff;
-  width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+.contact-content a {
+  color: #000;
 }
-
-.contact i {
-  font-size: 20px;
-  color: #149ddd;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #dff3fc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
+.contact-content a:hover {
+  color: #676767;
 }
-
-.contact h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #050d18;
-}
-
-.contact p {
-  padding: 0 0 10px 60px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  color: #173b6c;
-}
-
-.contact .email p {
-  padding-top: 5px;
-}
-
-.contact .social-links {
-  padding-left: 60px;
-}
-
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
