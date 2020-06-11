@@ -348,6 +348,10 @@ section {
   width: 20rem;
 }
 
+.card-img-top {
+  height: 220px;
+}
+
 /* !SECTION End portfolio */
 
 /* SECTION Resume section */
